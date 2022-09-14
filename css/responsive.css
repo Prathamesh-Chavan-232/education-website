@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1080px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .left-nav {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  #search {
+    width: 100%;
+  }
+}
