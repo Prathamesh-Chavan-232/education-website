@@ -43,6 +43,28 @@
   color: gray;
 }
 
+/* Right side - Search field & search button */
+.right-nav {
+  padding: 0 23px;
+  width: 50%;
+  text-align: right;
+}
+
+.search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid gray;
+  border-radius: 9px;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url(../images/buildings.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+/* ----------------------------------------- */
+
 /* ----------------------------------------- */
 
 /* Circular image for Logo  */
@@ -62,23 +84,39 @@
 
 /* ----------------------------------------- */
 
-.right-nav {
-  padding: 0 23px;
-  width: 50%;
-  text-align: right;
+/* ----------------------------------------- */
+
+.first-section {
+  height: 100vh;
 }
 
-.search {
-  padding: 5px;
-  font-size: 17px;
-  border: 2px solid gray;
-  border-radius: 9px;
+.main-box {
+  margin: auto;
+  height: 75%;
+  display: flex;
+  color: white;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.background {
-  background: rgba(0, 0, 0, 0.7) url(../images/buildings.jpg);
-  background-size: cover;
-  background-blend-mode: darken;
+.second-half {
+  width: 70%;
+  object-fit: cover;
+}
+
+.second-half .second-half-img {
+  border: 4px solid white;
+  margin: auto;
+}
+
+.big-txt {
+  font-size: min(4vw, 44px);
+}
+
+.small-txt {
+  font-size: min(2vw, 22px);
 }
 
 /* ----------------------------------------- */
@@ -102,38 +140,7 @@
 
 /* ----------------------------------------- */
 
-.first-section {
-  height: 100vh;
-}
-
-.main-box {
-  margin: auto;
-  height: 75%;
-  display: flex;
-  color: white;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.second-half {
-  width: 40%;
-  object-fit: cover;
-}
-
-.second-half .second-half-img {
-  border: 4px solid white;
-  margin: auto;
-}
-
-.big-txt {
-  font-size: 44px;
-}
-
-.small-txt {
-  font-size: 22px;
-}
+/* ----------------------------------------- */
 
 .section-tag {
   padding: 8px 0;

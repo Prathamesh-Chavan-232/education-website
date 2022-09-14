@@ -1,9 +1,29 @@
-@media only screen and (max-width: 1080px) {
+/* Hamburger menu for Phone  */
+.burger {
+  right: 5%;
+  top: 15px;
+  display: none;
+  cursor: pointer;
+  position: absolute;
+}
+
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  top: 15px;
+  margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1134px) {
   .navbar {
     flex-direction: column;
   }
   .left-nav {
     flex-direction: column;
+  }
+  .burger {
+    display: block;
   }
 }
 @media only screen and (max-width: 1080px) {
