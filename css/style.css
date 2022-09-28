@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ----------------------------------------- */
 
 /* Sticky Nav bar for Desktop screens */
@@ -65,8 +69,6 @@
 
 /* ----------------------------------------- */
 
-/* ----------------------------------------- */
-
 /* Circular image for Logo  */
 .logo {
   width: 100px;
@@ -81,8 +83,6 @@
   border-radius: 50%;
   border: 3px solid white;
 }
-
-/* ----------------------------------------- */
 
 /* ----------------------------------------- */
 
@@ -140,8 +140,6 @@
 
 /* ----------------------------------------- */
 
-/* ----------------------------------------- */
-
 .section-tag {
   padding: 8px 0;
 }
@@ -160,9 +158,9 @@
 }
 
 .second-section {
+  padding: 50px;
   margin: auto;
   display: flex;
-  height: 500px;
   max-width: 80%;
   font-weight: 300;
   align-items: center;

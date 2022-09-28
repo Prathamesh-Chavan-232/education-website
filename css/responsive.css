@@ -17,7 +17,9 @@
 
 @media only screen and (max-width: 1134px) {
   .navbar {
+    height: 600px;
     flex-direction: column;
+    transition: all 0.4s ease-out;
   }
   .left-nav {
     flex-direction: column;
@@ -25,9 +27,41 @@
   .burger {
     display: block;
   }
+
+  .nav-height {
+    height: 72px;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+  .main-box {
+    max-width: 100%;
+    flex-direction: column-reverse;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-crop {
+    height: 150px;
+    width: 150px;
+  }
+  .second-section {
+    flex-direction: column-reverse;
+  }
+  .big-txt {
+    font-size: max(4vw, 24px);
+    text-align: center;
+  }
+  .small-txt {
+    font-size: max(2vw, 12px);
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 1080px) {
   #search {
-    width: 100%;
+    width: 90%;
   }
 }

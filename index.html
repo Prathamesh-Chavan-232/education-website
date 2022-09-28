@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="css/responsive.css" type="text/css" />
   </head>
   <body>
+    <div id="home"></div>
     <!-- Navbar -->
-    <nav class="navbar background">
-      <ul class="left-nav">
+    <nav class="navbar nav-height background">
+      <ul class="left-nav hidden">
         <div class="logo"><img src="images/laptop-img3.jpg" alt="logo" /></div>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
       </ul>
-      <div class="right-nav">
+      <div class="right-nav hidden">
         <input type="text" name="search" class="search" />
         <button class="btn btn-small">Search</button>
       </div>
@@ -30,7 +31,7 @@
     </nav>
 
     <!-- First section - Tinted fullscreen image with heading -->
-    <section class="first-section background">
+    <section class="first-section background" id="about">
       <div class="main-box">
         <div class="first-half">
           <p class="big-txt">The Future of Education is here.</p>
@@ -57,10 +58,11 @@
     
     <!-- Left section - Content -->
     <!-- Right section - Unsplash Image -->
-    <section class="second-section">
+  <div id="services">
+        <section class="second-section">
       <div class="paras">
         <p class="section-tag big-txt">The End of your search is here</p>
-        <p class="section-subtag smalll-txt">
+        <p class="section-subtag sec-small-txt">
           Programming is an intriguing sector as it gives us the superpower to
           regulate computer programs on the go. It can be used for ships,
           traffic control, robotics, self-driving vehicles, smartphone
@@ -98,7 +100,7 @@
     <section class="second-section reverse">
       <div class="paras">
         <p class="section-tag big-txt">Transforming Education in India</p>
-        <p class="section-subtag smalll-txt">
+        <p class="section-subtag sec-small-txt">
           Education is a purposeful activity directed at achieving certain aims,
           such as transmitting knowledge or fostering skills and character
           traits. These aims may include the development of understanding,
@@ -141,7 +143,7 @@
     <section class="second-section">
       <div class="paras">
         <p class="section-tag big-txt">Lets grow together</p>
-        <p class="section-subtag smalll-txt">
+        <p class="section-subtag sec-small-txt">
           Who couldn’t use a few of the best motivational speeches for
           entrepreneurs? Business can be hard. Heck, life can be hard. We’re all
           on a journey, and we’ve all been down in theIf you want to develop
@@ -171,8 +173,9 @@
       </div>
     </section>
     
+  </div>
     
-    <section class="contact">
+    <section class="contact" id="contact-us">
       <h2>Contact us</h2>
       <div class="form">
         <input
